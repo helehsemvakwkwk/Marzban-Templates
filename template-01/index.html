@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
@@ -41,11 +41,11 @@
                         ],
                         tutorial: "",
                     },
-                    FoXray: {
+                    FairVPN: {
                         url: [
                             {
-                                name: "IOS 16+",
-                                url: "https://apps.apple.com/us/app/foxray/id6448898396",
+                                name: "IOS 12+",
+                                url: "https://apps.apple.com/us/app/fair-vpn/id1533873488?platform=iphone",
                                 best: false,
                             },
                         ],
@@ -64,7 +64,7 @@
                     Shadowrocket: {
                         url: [
                             {
-                                name: "$3.99",
+                                name: "IOS 13+",
                                 url: "https://apps.apple.com/ca/app/shadowrocket/id932747118",
                                 best: false,
                             },
@@ -77,7 +77,7 @@
                         url: [
                             {
                                 name: "GooglePlay",
-                                url: "https://play.google.com/store/apps/details?id=com.v2ray.ang",
+                                url: "https://play.google.com/store/apps/details?id=dev.epro.e_v2ray&pcampaignid=web_share",
                                 best: true,
                             },
                             {
@@ -210,7 +210,7 @@
             let settings = {
                 darkMode: 0,
                 language: "en",
-                support: "https://t.me/glitcher13", // can be telegram's support username link (exp: https://t.me/gozargah_marzban)
+                support: "https://t.me/SaputraTech", // can be telegram's support username link (exp: https://t.me/gozargah_marzban)
                 proxy: "", // hides proxy button
                 //"proxy": "tg://socks?server=127.0.0.1&port=2085" // opens telegram directly
                 //"proxy": "https://t.me/socks?server=127.0.0.1&port=2085"  // opens telegram in browser
@@ -234,8 +234,8 @@
         <style>
       
       #page-container {
-          
-        background: url(https://cdn.jsdelivr.net/gh/sh-y-zu/Marzban-Templates@master/back.jpg);
+        
+        background: url(https://cdn.jsdelivr.net/gh/helehsemvakwkwk/Marzban-Templates@7efffe3626ef94d92cba65d0d570ecbfb312f9ad/back.jpg);
 		background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -250,7 +250,7 @@
                 <div class="mx-auto max-w-xl">
                     <div class="flex flex-col sm:flex-row space-y-10 sm:space-y-0 sm:divide-x sm:rtl:divide-x-reverse sm:divide-blue-600/50">
                         <div class="basis-1/3 space-y-5 flex flex-col items-center py-3 sm:ltr:pr-9 sm:rtl:pl-9" x-data>
-                            <img src="https://cdn.jsdelivr.net/gh/sh-y-zu/Marzban-Templates@master/logo.svg"" class="w-28" />
+                            <img src="https://cdn.jsdelivr.net/gh/helehsemvakwkwk/Marzban-Templates@ed6985bc133d4bc598f48b00efa620d8ecd7e06c/logo.png" class="w-28" />
                             <span class="inline-block dark:text-white text-black font-semibold text-lg">{{ user.username }}</span>
                             <span class="px-4 py-2 rounded-full inline-block shadow-md shadow-green-900 font-bold text-gray-200" x-data="{status: '{{ user.status.value }}'}" x-text="[status == 'active' ? $t('active') : status == 'limited' ? $t('limited') : status == 'expired' ? $t('expired') : $t('disabled')]" :class="[status == 'active' ? 'bg-blue-600' : status == 'limited' ? 'bg-red-600' : status == 'expired' ? 'bg-orange-600' : 'bg-gray-600']"></span>
                             
