@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/95d93e8c-ac33-4ac4-b0a5-d106842c67e7)
+![image]([https://github.com/user-attachments/assets/95d93e8c-ac33-4ac4-b0a5-d106842c67e7](https://cdn.jsdelivr.net/gh/helehsemvakwkwk/Marzban-Templates@ed6985bc133d4bc598f48b00efa620d8ecd7e06c/q.png))
 # Marzban Templates
 Group of [Marzban](https://github.com/Gozargah/Marzban) Subscription Page templates
 
